@@ -1,0 +1,128 @@
+/*il faut mettre un text-align !!!
+mettre les px en em*/
+
+
+@font-face
+{
+	font-family: "Philosopher-Regular";
+	src: url("Philosopher-Regular.ttf");
+
+}
+
+
+body
+{
+
+	font-family: "Philosopher-Regular", serif, Arial;
+	color: #efecec;
+	margin:0;
+	background-color: #363434;
+
+
+}
+h1
+{
+	letter-spacing: 0.05em;
+}
+
+header
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+	box-shadow: 0em -0.2em 1em 0.5em black;
+	color:#efecec;
+	background-color: #62929a;
+
+
+}
+.identite
+{
+	display: flex;
+	flex-direction: column;
+
+
+
+}
+.contact
+{
+	display: flex;
+	flex-direction: row;
+	margin: 0px;
+	margin-left: -1.3em;
+	list-style-type: square;
+}
+.contact > li
+{
+	padding-right: 1.5em;
+
+}
+img
+{
+	box-shadow: 0.2em 0.1em 0.2em black;
+	border-bottom: solid 0.07em black;
+	margin-right:0.5em;
+
+}
+
+section
+{
+	margin-top:0.6em;
+}
+article
+{
+	border: solid 2px black;
+	border-radius: 8px;
+	background: #5c5757;
+	margin: 0.2em;
+	margin-bottom: -0.9em;
+}
+
+
+h2
+{
+	border-radius: 4px 4px 0px 0px;
+	border-bottom: 2px solid;
+	margin-top: 0px;
+	padding-left: 0.5em;
+	background-color: #41727b;
+
+}
+
+
+
+ul > p 
+{
+	margin: 0px;
+}
+
+#formations_list, #experiences_list, #competences_list
+{
+	margin-left: -0.8em;
+}
+ul
+{
+	display: flex;
+	flex-direction: column;
+
+}
+.event
+{
+	display:flex;
+	flex-direction: row;
+	justify-content: left;
+}
+.date
+{
+	font-style: italic;
+}
+
+.element:nth-child(2)
+{
+	margin-left: 0.2em;
+}
+.element:nth-child(3)
+{
+	justify-content: right;
+	margin-left: auto;
+}
